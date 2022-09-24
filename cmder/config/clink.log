@@ -1,0 +1,26 @@
+0184 start_logger              154 ---- 2022/09/07 01:20:49.651 -------------------------------------------------
+0184 start_logger              160 Host process is 'cmd.exe' (pid 388)
+0184 start_logger              164 DLL path is 'Z:\home\anonymous\Documents\robotFramework\cmder\vendor\clink'
+0184 start_logger              178 Windows version 6.2.9200 (x64)
+0184 start_logger              181 Clink version 1.2.46.69fc92 (x64)
+0184 hook_setter::hook_setter  156 >>> Started hook transaction.
+0184 hook_setter::attach_iat   313 Attempting to hook SetEnvironmentVariableW in IAT for module 0000000140000000.
+0184 pe_info::iterate_imports  160 Found import in 'kernel32.dll'
+0184 find_iat                  121 Found import at 0000000140033774 (value is 000000007B60F008).
+0184 hook_setter::attach_iat   313 Attempting to hook WriteConsoleW in IAT for module 0000000140000000.
+0184 pe_info::iterate_imports  160 Found import in 'kernel32.dll'
+0184 find_iat                  121 Found import at 00000001400337B4 (value is 000000007B60FAD0).
+0184 hook_setter::attach_iat   313 Attempting to hook GetEnvironmentVariableW in IAT for module 0000000140000000.
+0184 pe_info::iterate_imports  160 Found import in 'kernel32.dll'
+0184 find_iat                  121 Found import at 0000000140033644 (value is 000000007B60CE60).
+0184 hook_setter::commit       204 <<< Hook transaction committed.
+0184 hook_setter::hook_setter  156 >>> Started hook transaction.
+0184 hook_setter::detach_iat   356 Attempting to unhook 000000018001ADF0 from GetEnvironmentVariableW in IAT for module 0000000140000000.
+0184 pe_info::iterate_imports  160 Found import in 'kernel32.dll'
+0184 find_iat                  121 Found import at 0000000140033644 (value is 000000018001ADF0).
+0184 hook_setter::commit       204 <<< Hook transaction committed.
+0184 hook_setter::hook_setter  156 >>> Started hook transaction.
+0184 hook_setter::attach_iat   313 Attempting to hook ReadConsoleW in IAT for module 0000000140000000.
+0184 pe_info::iterate_imports  160 Found import in 'kernel32.dll'
+0184 find_iat                  121 Found import at 000000014003372C (value is 000000007B60E720).
+0184 hook_setter::commit       204 <<< Hook transaction committed.

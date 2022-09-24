@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on linux)" generated="20220923 21:39:04.991" rpa="false" schemaversion="3">
+<suite id="s1" name="RobotFrameworkNivel1 &amp; Test uno">
+<suite id="s1-s1" name="RobotFrameworkNivel1" source="/home/anonymous/Documents/robotFramework/RobotFrameworkNivel1">
+<suite id="s1-s1-s1" name="Test Case" source="/home/anonymous/Documents/robotFramework/RobotFrameworkNivel1/Test_Case">
+<suite id="s1-s1-s1-s1" name="Test uno" source="/home/anonymous/Documents/robotFramework/RobotFrameworkNivel1/Test_Case/Test_uno.robot">
+<test id="s1-s1-s1-s1-t1" name="Mi primer Test" line="7">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://demoqa.com/text-box</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220923 21:39:05.088" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/text-box'.</msg>
+<status status="PASS" starttime="20220923 21:39:05.088" endtime="20220923 21:39:10.587"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220923 21:39:10.587" endtime="20220923 21:39:10.689"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220923 21:39:15.690" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220923 21:39:10.689" endtime="20220923 21:39:15.690"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220923 21:39:15.690" endtime="20220923 21:39:15.751"/>
+</kw>
+<status status="PASS" starttime="20220923 21:39:05.088" endtime="20220923 21:39:15.752"/>
+</test>
+<status status="PASS" starttime="20220923 21:39:05.007" endtime="20220923 21:39:15.752"/>
+</suite>
+<status status="PASS" starttime="20220923 21:39:05.006" endtime="20220923 21:39:15.753"/>
+</suite>
+<status status="PASS" starttime="20220923 21:39:05.005" endtime="20220923 21:39:15.754"/>
+</suite>
+<suite id="s1-s2" name="Test uno" source="/home/anonymous/Documents/robotFramework/RobotFrameworkNivel1/Test_Case/Test_uno.robot">
+<test id="s1-s2-t1" name="Mi primer Test" line="7">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://demoqa.com/text-box</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220923 21:39:15.756" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/text-box'.</msg>
+<status status="PASS" starttime="20220923 21:39:15.756" endtime="20220923 21:39:20.016"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220923 21:39:20.016" endtime="20220923 21:39:20.118"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220923 21:39:25.119" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220923 21:39:20.119" endtime="20220923 21:39:25.119"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220923 21:39:25.119" endtime="20220923 21:39:25.178"/>
+</kw>
+<status status="PASS" starttime="20220923 21:39:15.756" endtime="20220923 21:39:25.178"/>
+</test>
+<status status="PASS" starttime="20220923 21:39:15.754" endtime="20220923 21:39:25.179"/>
+</suite>
+<status status="PASS" starttime="20220923 21:39:04.992" endtime="20220923 21:39:25.179"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="RobotFrameworkNivel1 &amp; Test uno">RobotFrameworkNivel1 &amp; Test uno</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="RobotFrameworkNivel1">RobotFrameworkNivel1 &amp; Test uno.RobotFrameworkNivel1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Test Case">RobotFrameworkNivel1 &amp; Test uno.RobotFrameworkNivel1.Test Case</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Test uno">RobotFrameworkNivel1 &amp; Test uno.RobotFrameworkNivel1.Test Case.Test uno</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Test uno">RobotFrameworkNivel1 &amp; Test uno.Test uno</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
